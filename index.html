@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBSE Class XII Result (Dummy)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-top">
+                <img src="https://www.cbse.gov.in/cbsenew/logos/cbse_logo_new_tranparent.png" alt="CBSE Logo" class="logo">
+                <div class="header-text">
+                    <h1>केन्द्रीय माध्यमिक शिक्षा बोर्ड</h1>
+                    <h2>Central Board of Secondary Education</h2>
+                    <h3>Senior School Certificate Examination (Class XII) Results - DUMMY</h3>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="form-container">
+                <h4 class="form-title">Enter Your Details to View Dummy Result</h4>
+                <form id="resultForm">
+                    <div class="form-group">
+                        <label for="studentNameInput">Enter Your Name:</label>
+                        <input type="text" id="studentNameInput" required placeholder="e.g., Rohan Kumar">
+                    </div>
+                    <div class="form-group">
+                        <label for="rollNumberInput">Enter Your Roll Number:</label>
+                        <input type="text" id="rollNumberInput" required placeholder="e.g., 12345678">
+                    </div>
+                    <div class="form-group">
+                        <label for="dobInput">Enter Your Date of Birth:</label>
+                        <input type="date" id="dobInput" required>
+                    </div>
+                    <button type="submit" class="submit-btn">View Result</button>
+                </form>
+                <p class="disclaimer">Disclaimer: This is a dummy website for entertainment purposes only. Results shown are not real.</p>
+            </div>
+
+            <div id="resultDisplaySection" class="result-section" style="display:none;">
+                <h3 class="result-main-title">Senior School Certificate Examination (Class XII) Dummy Result</h3>
+                <div class="student-details-box">
+                    <p><strong>Roll No.:</strong> <span id="displayRollNo"></span></p>
+                    <p><strong>Candidate Name:</strong> <span id="displayName"></span></p>
+                    <p><strong>Date of Birth:</strong> <span id="displayDOB"></span></p>
+                    <p><strong>School:</strong> <span>99999 - Dummy Public School</span></p> </div>
+
+                <table class="result-table">
+                    <thead>
+                        <tr>
+                            <th>Subject Code</th>
+                            <th>Subject Name</th>
+                            <th>Theory Marks</th>
+                            <th>Practical Marks</th>
+                            <th>Total Marks</th>
+                            <th>Positional Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody id="marksTableBody">
+                        </tbody>
+                </table>
+
+                <div class="summary-section">
+                    <p><strong>TOTAL MARKS OBTAINED:</strong> <span id="totalMarksObtained"></span> / <span id="grandTotalMarks"></span></p>
+                    <p><strong>OVERALL PERCENTAGE:</strong> <span id="overallPercentage"></span>%</p>
+                    <div class="final-result-box">
+                        <strong>RESULT:</strong> <span id="finalResultStatus"></span>
+                        <p id="funnyMessage" class="funny-message"></p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; Dummy Board of Secondary Education. For entertainment purposes only.</p>
+            <p>Current Date: <span id="currentDate"></span></p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

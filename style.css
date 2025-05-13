@@ -1,0 +1,229 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8; /* Light blue-gray background */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align to top */
+    min-height: 100vh;
+    padding-top: 20px;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+header {
+    background-color: #004a99; /* Dark blue */
+    color: white;
+    padding: 15px;
+    border-radius: 6px 6px 0 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 60px;
+    margin-right: 20px;
+}
+
+.header-text h1 {
+    font-size: 1.2em;
+    margin: 0 0 5px 0;
+    font-weight: bold;
+}
+
+.header-text h2 {
+    font-size: 1.0em;
+    margin: 0 0 5px 0;
+}
+
+.header-text h3 {
+    font-size: 0.9em;
+    margin: 0;
+    font-weight: normal;
+    background-color: #ffc107; /* Yellow accent */
+    color: #333;
+    padding: 3px 5px;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.form-container {
+    background-color: #e9eff5; /* Lighter blue shade */
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    border: 1px solid #b0c4de; /* Light steel blue border */
+}
+
+.form-title {
+    text-align: center;
+    color: #004a99;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"] {
+    width: calc(100% - 22px); /* Account for padding and border */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.submit-btn {
+    background-color: #28a745; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #218838; /* Darker green */
+}
+
+.disclaimer {
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    margin-top: 15px;
+}
+
+.result-section {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+
+.result-main-title {
+    text-align: center;
+    color: #004a99;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    border-bottom: 2px solid #ffc107;
+    padding-bottom: 10px;
+}
+
+.student-details-box {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+}
+
+.student-details-box p {
+    margin: 8px 0;
+    font-size: 0.95em;
+}
+
+.student-details-box p strong {
+    display: inline-block;
+    width: 150px; /* Align labels */
+}
+
+
+.result-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.result-table th,
+.result-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    font-size: 0.9em;
+}
+
+.result-table th {
+    background-color: #e9ecef; /* Light gray for header */
+    color: #333;
+    font-weight: bold;
+}
+
+.summary-section {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+}
+
+.summary-section p {
+    font-size: 1em;
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+.final-result-box {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.final-result-box .PASS {
+    color: #28a745; /* Green for Pass */
+    border: 2px solid #28a745;
+    background-color: #e6ffed;
+}
+
+.final-result-box .FAIL {
+    color: #dc3545; /* Red for Fail */
+    border: 2px solid #dc3545;
+    background-color: #ffebee;
+}
+
+.funny-message {
+    font-size: 0.9em;
+    font-weight: normal;
+    margin-top: 8px;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #eee;
+}
